@@ -1,0 +1,83 @@
+.ch2-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+
+  font-size: 16px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.ch2-label {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.ch2-button {
+  line-height: 38px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #5A93AF;
+  background-color: white;
+  padding: 0px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.ch2-input {
+  height: 18px;
+  border-radius: 10px;
+  border: solid 1px #e3e3e3;
+  padding: 11px;
+}
+
+.ch2-container :nth-child(3n) {
+  margin-top: 10px;
+}
+
+.ch2-cr-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ch2-cr-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.ch2-cr-header :nth-child(3) {
+  margin-top: 0 !important;
+}
+
+.ch2-cr-value {
+  font-weight: bold;
+}
+
+.ch2-cr-body {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.ch2-cr-body div {
+  margin-right: 1rem;
+}
+
+.ch2-cr-body :nth-child(3) {
+  margin-top: 0 !important;
+}
+
+.ch2-cr-note-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ch2-cr-note-container label {
+  text-align: center;
+}

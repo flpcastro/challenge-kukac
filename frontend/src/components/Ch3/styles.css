@@ -1,0 +1,39 @@
+.ch3-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.ch3-checkbox-container {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.ch3-checkbox-container > label {
+  margin-right: 1.2rem;
+  font-family: sans-serif;
+  line-height: 1.8;
+  color: white;
+}
+
+.ch3-button {
+  line-height: 38px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #5A93AF;
+  background-color: white;
+  padding: 0px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.ch3-input {
+  height: 18px;
+  border-radius: 10px;
+  border: solid 1px #e3e3e3;
+  padding: 11px;
+  margin-bottom: 1rem;
+}
